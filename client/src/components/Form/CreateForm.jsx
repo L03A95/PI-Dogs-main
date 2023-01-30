@@ -103,7 +103,7 @@ export default function CreateForm() {
         setErrors(error)
         setAlertDisplay(true)
         if(!error.name && !error.weight && !error.height && !error.lifetime){
-            await axios.post('http://localhost:3001/dogs',dogToPost)
+            await axios.post('/dogs',dogToPost)
         }
     }
 

@@ -8,8 +8,8 @@ import {Routes, Route, useLocation} from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { getDogs, getTemperaments } from './redux/actions'
 import { useEffect } from 'react';
-
-
+import axios from 'axios'
+axios.defaults.baseURL = 'https://pi-dogs-main-wheat-five.vercel.app/'
 
 
 function App() {
