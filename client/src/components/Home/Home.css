@@ -1,0 +1,6 @@
+.all_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../../images/background.jpg);
+    background-attachment: fixed;
+}

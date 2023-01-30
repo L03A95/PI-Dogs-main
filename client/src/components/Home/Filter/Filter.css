@@ -1,0 +1,58 @@
+.filter_container {
+    width:400px;
+    height: 900px;
+    background-color: #F7E6D2;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.temperaments_buttons {
+    background-color: #ffae78;
+    border: none;
+    margin: 3.5px;
+    padding: 2px;
+    color:#a8495c;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.temperaments_buttons:active {
+    background-color: #DC8C5F;
+}
+
+.filter_buttons {
+    margin:3px;
+    background: linear-gradient(0deg, #ffae78 0%, #ea6b63 150%);
+    border: none;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 16px;
+    color:#a8495c;
+    cursor: pointer;
+}
+
+.filter_buttons:active {
+    background: linear-gradient(0deg, #ea6b63 0%, #a8495c 150%);
+}
+
+.search_bar {
+    height: 30px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    outline:1px solid #DC8C5F;
+    background: linear-gradient(0deg, #FFE0D2 0%, #ffae78 150%);
+    font-size: 18px;
+    color: #ea6b63;
+}
+
+.search_bar:focus {
+    outline:2px solid #DC8C5F;
+}
+
+.filter_title {
+    color: #4e2c4b;
+}

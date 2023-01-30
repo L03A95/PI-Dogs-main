@@ -1,0 +1,81 @@
+.detail_wrapper {
+    background-image: url(../../images/background.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+
+.detail_container {
+    width: 1520px;
+    height: 700px;
+    border-radius: 15px;
+    background-color: #F7E6D2;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 129px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.detail_img{
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.temperaments_wrapper{
+    background-color: #ffae78;
+    border-radius: 15px;
+    height: 380px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temperament_display {
+    background-color: #FFE0D2;
+    width: max-content;
+    border-radius: 3px;
+    margin:3.7px;
+    padding: 2px;
+    border:none;
+    color: #a8495c;
+    font-size: 18px;
+}
+
+.info_wrappers {
+    background-color: #ffae78;
+    margin:50px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.info_titles {
+    color: #4e2c4b;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.info_numbers {
+    padding:5px;
+    border-radius: 10px;
+    margin: 5px;
+    color: #F7E6D2;
+}
+
+.min {
+    background-color: #a8495c;
+}
+
+.max {
+    background-color: #733553;
+}
+
+.dog_name_info {
+    background-color: #ffae78;
+    margin: 20px;
+    border-radius: 10px;
+    color: #F7E6D2;
+}

@@ -12,10 +12,9 @@ module.exports = (sequelize) => {
     name: {
       type: DataTypes.STRING,
       allowNull: false,
-      unique: true
     },
     height: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
       allowNull: false
     },
     weight: {
@@ -23,7 +22,7 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     lifetime: {
-      type: DataTypes.INTEGER
+      type: DataTypes.STRING
     },
     image: {
       type: DataTypes.STRING,
