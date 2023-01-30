@@ -103,7 +103,7 @@ export default function CreateForm() {
         setErrors(error)
         setAlertDisplay(true)
         if(!error.name && !error.weight && !error.height && !error.lifetime){
-            await axios.post('/dogs',dogToPost)
+            await axios.post('https://pi-dogs-main-production-f939.up.railway.app/dogs',dogToPost)
         }
     }
 
