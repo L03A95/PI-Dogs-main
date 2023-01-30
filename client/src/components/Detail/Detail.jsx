@@ -16,7 +16,7 @@ export default function Detail() {
     })
 
     useEffect(() => {
-        fetch(`https://pi-dogs-main-wheat-five.vercel.app/dogs/${detailId}`)
+        fetch(`https://pi-dogs-main-production-f939.up.railway.app/dogs/${detailId}`)
            .then((response) => response.json())
            .then((dog) => {
               if (dog.name) {
